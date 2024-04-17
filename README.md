@@ -1,1 +1,6 @@
 # Improved-Rabin-Karp-Using-Bloom-Filter
+Our code implements an optimized string matching algorithm by combining the Rabin-Karp algorithm with Bloom filters. The Rabin-Karp algorithm efficiently searches for patterns within a given text, while Bloom filters serve as a smart filtering mechanism to quickly identify potential matches.
+
+By integrating multiple hash functions into the Bloom filter, we enhance the filtering process. Subsequently, the Rabin-Karp algo performs detailed verification on the filtered patterns, confirming accurate matches and ensuring precise string matching with reduced computational load.
+
+Utilizing Bloom filters for pattern filtering and Rabin-Karp algorithm for detailed verification, our implementation streamlines the process of identifying patterns within large text datasets. The efficient combination of these techniques enhances performance and reduces computational overhead, making it well-suited for applications requiring rapid and accurate string matching. With thorough experimentation and validation, our approach showcases its effectiveness in efficiently handling string matching tasks, paving the way for practical application in various domains requiring efficient text processing.
